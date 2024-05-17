@@ -1,0 +1,22 @@
+﻿<Window x:Class="barkin_up.Window_payment"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:barkin_up"
+        mc:Ignorable="d"
+        Title="Window_payment" Height="450" Width="800">
+    <Grid>
+        <Button Content="Сотовая связь" HorizontalAlignment="Left" Height="57" Margin="318,22,0,0" VerticalAlignment="Top" Width="147" Click="Button_cellular"/>
+        <Button Content="Денежные переводы" HorizontalAlignment="Left" Margin="320,101,0,0" VerticalAlignment="Top" Height="55" Width="143"/>
+        <Button Content="Моментальный перевоод на карту" HorizontalAlignment="Left" Height="56" Margin="289,0,0,0" VerticalAlignment="Center" Width="212"/>
+        <Button Content="Услуги банков и погашение кредитов" HorizontalAlignment="Left" Height="60" Margin="281,269,0,0" VerticalAlignment="Top" Width="230"/>
+        <Button Content="Коммунальные услуги" HorizontalAlignment="Left" Height="53" Margin="319,355,0,0" VerticalAlignment="Top" Width="159"/>
+
+        <Image Source="Resources/ss.jpg" Margin="199,4,512,351"/>
+        <Image Source="Resources/perevod.jpg" Margin="196,90,515,265"/>
+        <Image Source="Resources/spb.jpg" Margin="197,177,524,184"/>
+        <Image Source="Resources/bank.jpg" Margin="185,257,526,98"/>
+        <Image Source="Resources/zhkh.jpg" Margin="185,340,526,15"/>
+    </Grid>
+</Window>
